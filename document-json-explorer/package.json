@@ -1,0 +1,64 @@
+{
+  "name": "viewer",
+  "version": "0.1.0",
+  "description": "A Document AI JSON developers tools",
+  "private": true,
+  "homepage": "https://kolban-google.github.io/docai-dev",
+  "bugs": {
+    "url": "https://github.com/kolban-google/docai-dev/issues",
+    "email": "kolban@google.com"
+  },
+  "author": {
+    "name": "Neil Kolban",
+    "email": "kolban@google.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolban-google/docai-dev"
+  },
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.6",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-json-view": "^1.21.3",
+    "react-scripts": "5.0.1",
+    "react-svg-pan-zoom": "^3.12.1",
+    "web-vitals": "^3.3.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
